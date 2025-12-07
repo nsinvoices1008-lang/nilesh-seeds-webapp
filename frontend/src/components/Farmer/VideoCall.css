@@ -1,0 +1,73 @@
+.videocall-container {
+  min-height: calc(100vh - 70px);
+  padding: 20px;
+  background: #1a1a1a;
+  margin-top: 70px;
+}
+
+.videocall-header {
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.videocall-header h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+}
+
+.videocall-header .back-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.videocall-header .back-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.videocall-placeholder {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #2a2a2a;
+  border-radius: 15px;
+  padding: 60px 40px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.videocall-placeholder h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.videocall-placeholder p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.videocall-placeholder .note {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(76, 175, 80, 0.1);
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  color: #4CAF50;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .videocall-placeholder {
+    padding: 40px 20px;
+  }
+
+  .videocall-placeholder h3 {
+    font-size: 1.5rem;
+  }
+}
